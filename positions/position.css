@@ -1,0 +1,21 @@
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+#box3{
+    /* relative position itself according to its normal position */
+    /* absolute position positions itself to nearest positioned ancestor which has its position non static if not then it will position itself according to body tag */
+    /* fixed property positions itself relative to the viewport which means it will stay in the same place if the page is scrolled */
+    /* sticky property toggles between relative and fixed */
+/* webkit prefix for safari */
+    /* position:-webkit-sticky; 
+    position: sticky; */
+    top: 0px;
+}
+#box2{
+    position: absolute;
+}

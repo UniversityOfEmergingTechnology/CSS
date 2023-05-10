@@ -1,0 +1,10 @@
+p{
+    /* background-color: rgba(255, 0, 0, 0.4); */
+    /* background-image: url(image.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: scroll; */
+    /* shorthand property */
+    background: url(image.jpg) no-repeat right top;
+}

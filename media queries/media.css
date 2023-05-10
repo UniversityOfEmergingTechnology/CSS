@@ -1,0 +1,31 @@
+.container{
+    height: 500px;
+    border: 1px solid black;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+/* type description */
+/* all used for all media type devices */
+/* screen used for computer screens, tablets, smartphones */
+/* speech used for screen readers that reads the page out loud */
+/* print used for printers */
+
+/* max width means less than */
+/* min width means greater than */
+@media screen and (min-width:300px) and (max-width : 700px){
+    .container{
+        flex-direction: column;
+    }
+    .box{
+        background-color: aqua;
+    }
+}

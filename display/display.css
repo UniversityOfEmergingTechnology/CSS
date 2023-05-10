@@ -1,0 +1,27 @@
+.container{
+    height: 400px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* default value for justify content was flex start */
+    /* default value for my align items is stretch */
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-content: space-around; */
+}
+
+.box{
+    border: 1px solid black;
+}
+
+/* default value for order is 0 for all flex items */
+#box1{
+    /* align self will actually align my flex items individually and it will override my align items properties */
+    align-self: flex-end;
+}
+#box3{
+    order: 1;
+}

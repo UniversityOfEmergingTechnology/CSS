@@ -1,0 +1,39 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* it is used to bind with my keyframes */
+    animation-name: colorChange;
+    /* if animation duration is not specified then no animation will occur because default value is 0 */
+    animation-duration: 4s;
+    /* specified delay for the start of an animation, we can also have negative values */
+    animation-delay: 2s;
+    /* specifies how many times my animation should run */
+    animation-iteration-count: 2;
+    /* specifies whether animation should run from initial to final or final to initial */
+    animation-direction: reverse;
+    /* specified speed curve of my animation */
+    animation-timing-function: linear;
+    /* we can change the behavior of this property to specify a style for target element when animation is not playing  */
+    animation-fill-mode: both;
+    /* animation-name animation duration animation-timing-function animation delay animation-iteration-count animation-direction  */
+    animation: colorChange 4s linear 2s infinite linear;
+}
+
+@keyframes colorChange{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: antiquewhite;
+    }
+    75%{
+        background-color: black;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}

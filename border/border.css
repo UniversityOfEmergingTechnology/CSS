@@ -1,0 +1,32 @@
+div{
+    /* what kind of border you want to display */
+    /* border-style: solid; */
+    /* this helps me the width of the border */
+    /* border-width: medium; */
+    /* border color */
+    /* by default it is the same as my element */
+    /* border-color: rgb(221, 164, 164); */
+    /* this helps me to give individual colors to each side of the border */
+    /* border-color: red blue green black; */
+    /* border-top-style: dotted;
+    border-bottom-style: double;
+    border-left-style: outset;
+    border-right-style: dashed;
+
+    /* top right bottom left */
+    /* border-style: dotted solid double dashed ; */
+    /* top r&l bottom*/
+    /* border-style: dotted double dashed; */
+    /* t&b r&l */
+    /* border-style: dotted dashed;  */
+
+    /* rounded borders */
+    /* border-style: solid; */
+    /* border-width: 3px; */
+    /* how much those corners should be rounded */
+    /* border-radius: 12px; */
+
+    /* shorthand property */
+    /* border width border style border color */
+    border: 3px solid red;
+}

@@ -1,0 +1,13 @@
+p{
+    color: saddlebrown;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 100px;
+    /* specifies space between lines */
+    line-height: 30px;
+    /* specifies space between letter */
+    /* letter-spacing: 20px; */
+    word-spacing: 40px;
+    /* text shadow - horizontal shadow vertical shadow blur effect color */
+    text-shadow: 2px 2px;
+}

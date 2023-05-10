@@ -1,0 +1,25 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    background-color: red;
+    transition: width 2s;
+    /* transition-delay: 2s; */
+    /* ease property means slow start then fast and slow this is default */
+    transition-timing-function: ease;
+    /* same speed throughout the transition */
+    transition-timing-function: linear;
+    /* with slow start */
+    transition-timing-function: ease-in;
+    /* with slow end */
+    transition-timing-function: ease-out;
+    /* slow start and slow end */
+    transition-timing-function: ease-in-out;
+
+    
+}
+
+.box:hover{
+    width: 500px;
+    height: 1000px;
+}
